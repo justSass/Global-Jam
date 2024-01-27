@@ -22,6 +22,11 @@ public class Interact : MonoBehaviour
 
         if (Physics.Raycast(playerCam.transform.position, playerCam.transform.forward, out hit, range))
         {
+            if (hit.collider.tag == "Chicken")
+            {
+                print("AAAAAAAA");
+            }
+
             Debug.Log(hit.transform.name);
         }
 
