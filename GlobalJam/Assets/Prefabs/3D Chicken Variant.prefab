@@ -1,0 +1,280 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2488872006580175429
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 341048114003976066, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: m_Name
+      value: 3D Chicken Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3767535925173900064, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 95d7fff2eba1a47559113943621cb6dd, type: 2}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[0].text
+      value: "3D Chicken: \u201C\"You came back!\"\u201D   "
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[1].text
+      value: "3D Chicken: \"I've been checking you out. I am a fortune teller of
+        sorts\u201D "
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[2].text
+      value: '3D Chicken: "Yes my child but u see I have been given a divine revelation
+        from god today, to tell you of what I had witnessed fifteen, fifteen, fifteen,
+        fifteen, fifteen,  years, years, years, years,  years,   ago, ago, ago, ago,
+        ago, " '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[3].text
+      value: "3D Chicken: You're too good for this world.\" \u201Cyou know, that
+        woman looked just like you\u2026she was killed in the alleys ways I had worked,
+        I stayed silent then because Mr. BigWig is such a powerful man that has power
+        in many industries. But now it is time i get this off my chest, so I may
+        be free of that haunting bloody scene\u201D "
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[4].text
+      value: .....
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[2].isEnd
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[4].isEnd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[0].isQuestion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[2].isQuestion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[3].isQuestion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[4].isQuestion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[0].option1Index
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[1].option1Index
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[1].option2Index
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[2].option1Index
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[2].option2Index
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[3].option1Index
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[3].option2Index
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[4].option1Index
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[4].option2Index
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[0].answerOption1
+      value: What do you mean?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[0].answerOption2
+      value: ....
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[1].answerOption1
+      value: Are you ok man?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[1].answerOption2
+      value: .....
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[2].answerOption1
+      value: Umm go ahead and yap buddy
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[2].answerOption2
+      value: what??
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[3].answerOption1
+      value: Who is that lady?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[3].answerOption2
+      value: .....
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[4].answerOption1
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[4].answerOption2
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[3].endDialogueEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[4].endDialogueEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[4].startDialogueEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[4].endDialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[4].endDialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3535918014589479821}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[4].startDialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[4].startDialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3535918014589479821}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[3].endDialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[4].endDialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[4].endDialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Chicken2DSpawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[4].startDialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[4].startDialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Chicken2DSpawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[4].endDialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Chicken3D, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[4].startDialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Chicken3D, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[4].endDialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: dialogueStrings.Array.data[4].startDialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7873651808320016766, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7873651808320016766, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7873651808320016766, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 7873651808320016766, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7873651808320016766, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7873651808320016766, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7873651808320016766, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7873651808320016766, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7873651808320016766, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7873651808320016766, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 341048114003976066, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3535918014589479821}
+  m_SourcePrefab: {fileID: 100100000, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+--- !u!1 &2752150810516659655 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 341048114003976066, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
+  m_PrefabInstance: {fileID: 2488872006580175429}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3535918014589479821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2752150810516659655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96420273966a34d9aad643cea8fddc33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chicken2D: {fileID: 5737856362838793826, guid: 91d477564aae4440fbba835e0d8f6ec3, type: 3}
