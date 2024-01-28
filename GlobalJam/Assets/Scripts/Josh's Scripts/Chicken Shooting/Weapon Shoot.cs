@@ -9,6 +9,7 @@ public class WeaponShoot : MonoBehaviour
     public float range = 1000f;
 
     public Camera fpsCam;
+    public AudioSource vineBoom;
 
     //public ParticleSystem muzzleFlash;
 
@@ -31,6 +32,7 @@ public class WeaponShoot : MonoBehaviour
             Target target = hit.transform.GetComponent<Target>();
             if (target != null)
             {
+                vineBoom.Play();
                 target.TakeDamage(damage);
             }
         }
