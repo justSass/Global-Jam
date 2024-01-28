@@ -17,6 +17,7 @@ public class SoundManager : MonoBehaviour
     void Start()
     {
         _instance = this;
+         musicSfx(0);
     }
 
     // Update is called once per frame
@@ -24,7 +25,7 @@ public class SoundManager : MonoBehaviour
     {
         
     }
-
+    
 
     public void playSfx(string _sfxSound)
     {
@@ -33,10 +34,10 @@ public class SoundManager : MonoBehaviour
         if(sound != null) { clipSfx.clip = sound.clip; clipSfx.PlayOneShot(sound.clip); } else { Debug.Log("Not found"); }
     }
 
-    public void musicSfx(string _sfxMusic)
+    public void musicSfx(int _sfxMusic)
     {
-        Sound sound = sounds.Find(x => x.nameClip == _sfxMusic);
+        Sound sound = music.Find(x => x.musisScene == _sfxMusic);
 
-        if (sound != null) { clipSfx.clip = sound.clip; clipSfx.Play(); clipSfx.volume = sound.volume; } else { Debug.Log("Not found"); }
+        if (sound != null) { sfxSource.clip = sound.clip; sfxSource.Play(); clipSfx.volume = sound.volume; } else { Debug.Log("Not found"); }
     }
 }
