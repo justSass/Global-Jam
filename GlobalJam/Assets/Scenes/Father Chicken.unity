@@ -142,7 +142,7 @@ PrefabInstance:
     - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
       propertyPath: NPCTransform
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1165286294}
     - target: {fileID: 3813271637824448951, guid: d58b9a1ee89324243bb73387c41b06ac, type: 3}
       propertyPath: dialogueStrings.Array.size
       value: 10
@@ -1648,6 +1648,11 @@ PrefabInstance:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2095696756852824950, guid: 8cafe856c9d904b579d05142a479c04d, type: 3}
   m_PrefabInstance: {fileID: 1044256069}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1165286294 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8617056141189571754, guid: 9c2d3e1c906b143e99fe6db1dcd21486, type: 3}
+  m_PrefabInstance: {fileID: 400022035}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1174030361 stripped
 MonoBehaviour:
