@@ -10,7 +10,7 @@ public class Chicken3D : MonoBehaviour
 
     public void Chicken2DSpawn()
     {
-        Instantiate(chicken2D, new Vector3(11, 0, -11), Quaternion.identity);
+        Instantiate(chicken2D, new Vector3(-16, 0, -17), Quaternion.identity);
 
     }
 }

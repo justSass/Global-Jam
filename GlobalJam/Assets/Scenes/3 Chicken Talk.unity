@@ -235,7 +235,7 @@ Transform:
   m_GameObject: {fileID: 388334390}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.7, y: 0, z: 0}
+  m_LocalPosition: {x: 15, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -792,6 +792,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 363120748342341185, guid: be6a8d977ce3341eda70abef27b4b7a0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 408032931749991638, guid: be6a8d977ce3341eda70abef27b4b7a0, type: 3}
       propertyPath: NPCTransform
       value: 
@@ -857,8 +861,20 @@ PrefabInstance:
       value: Spinning Chicken
       objectReference: {fileID: 0}
     - target: {fileID: 6631054612579314719, guid: be6a8d977ce3341eda70abef27b4b7a0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6631054612579314719, guid: be6a8d977ce3341eda70abef27b4b7a0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6631054612579314719, guid: be6a8d977ce3341eda70abef27b4b7a0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6631054612579314719, guid: be6a8d977ce3341eda70abef27b4b7a0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 6631054612579314719, guid: be6a8d977ce3341eda70abef27b4b7a0, type: 3}
       propertyPath: m_LocalPosition.y

@@ -11,6 +11,8 @@ public class WeaponShoot : MonoBehaviour
     public Camera fpsCam;
     public AudioSource vineBoom;
 
+    public LTGChicken lTGChicken;
+
     //public ParticleSystem muzzleFlash;
 
     // Update is called once per frame
@@ -33,6 +35,7 @@ public class WeaponShoot : MonoBehaviour
             if (target != null)
             {
                 vineBoom.Play();
+                lTGChicken.OnChickenDie();
                 target.TakeDamage(damage);
             }
         }

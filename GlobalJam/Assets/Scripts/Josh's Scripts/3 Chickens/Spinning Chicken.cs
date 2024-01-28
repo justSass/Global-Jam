@@ -9,6 +9,6 @@ public class SpinningChicken : MonoBehaviour
 
     public void chicken3Dspawn()
     {
-        Instantiate(chickenspawn3d, new Vector3(11, 0, 11), Quaternion.identity);
+        Instantiate(chickenspawn3d, new Vector3(-16, 0, 17), Quaternion.identity);
     }
 }

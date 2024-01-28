@@ -17,7 +17,7 @@ public class LTGChicken : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.P)) { OnChickenDie(); }
+   
         if(timer > 0)
         {
             timer -= Time.deltaTime;
@@ -30,6 +30,6 @@ public class LTGChicken : MonoBehaviour
     {
        if(ltgChicken.enabled == true) { timer += showTime;  }
        else if(ltgChicken.enabled == false) { timer = showTime; }
-        SoundManager.myInstance.playSfx("Vine boom");
+        
     }
 }
