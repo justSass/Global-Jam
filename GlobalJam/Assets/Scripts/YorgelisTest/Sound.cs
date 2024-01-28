@@ -7,6 +7,7 @@ using System.Collections.Generic;
 public class Sound
 {
 
+    public int musisScene;
     public string nameClip;
     public AudioClip clip;
     [Range(0f, 1f)]
