@@ -20,6 +20,7 @@ public class DialogManager : MonoBehaviour
 
     [Header("Player")]
     [SerializeField] private PlayerCamera playerCamera;
+    [SerializeField] private PlayerMovement playerMovement;
     public Transform orientation;
 
     private int currentDialogueIndex = 0;
@@ -35,6 +36,9 @@ public class DialogManager : MonoBehaviour
     public void DialogueStart(List<dialogueString> textToPrint, Transform NPC)
     {
         dialogueParent.SetActive(true);
+        playerCamera.enabled = false;
+        playerMovement.enabled = false;
+
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
@@ -148,6 +152,7 @@ public class DialogManager : MonoBehaviour
         dialogueText.text = "";
         dialogueParent.SetActive(false);
         playerCamera.enabled = true;
+        playerMovement.enabled = true;
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
