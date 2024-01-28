@@ -601,6 +601,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chickenspawn3d: {fileID: 2752150810516659655, guid: 456c46d857b6949cda1a96d4d82cba3b, type: 3}
+--- !u!1 &1853414494 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4731149255487741656, guid: be6a8d977ce3341eda70abef27b4b7a0, type: 3}
+  m_PrefabInstance: {fileID: 3304355133887112443}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1853414495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853414494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf1ad7dd1dde44eaab033b5e13f3baa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2799442039676801895
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -841,6 +858,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3889224278628999907, guid: be6a8d977ce3341eda70abef27b4b7a0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1813597075}
+    - targetCorrespondingSourceObject: {fileID: 4731149255487741656, guid: be6a8d977ce3341eda70abef27b4b7a0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1853414495}
   m_SourcePrefab: {fileID: 100100000, guid: be6a8d977ce3341eda70abef27b4b7a0, type: 3}
 --- !u!1001 &9107736477632104143
 PrefabInstance:
