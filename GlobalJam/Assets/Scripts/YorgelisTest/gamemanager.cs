@@ -78,13 +78,13 @@ public class gamemanager : MonoBehaviour
        
     }
    
+    public void PlayAgain() {
+        SceneManager.LoadScene(0);
+    }
 
     public void nextScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-       
-
-        
     }
    
 
