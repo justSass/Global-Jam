@@ -154,6 +154,34 @@ PrefabInstance:
       propertyPath: dialogueStrings.Array.data[1].option2Index
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3433153564312579064, guid: e6356847d1d144a15890dfc5024489a1, type: 3}
+      propertyPath: dialogueStrings.Array.data[1].startDialogueEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3433153564312579064, guid: e6356847d1d144a15890dfc5024489a1, type: 3}
+      propertyPath: dialogueStrings.Array.data[1].startDialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3433153564312579064, guid: e6356847d1d144a15890dfc5024489a1, type: 3}
+      propertyPath: dialogueStrings.Array.data[1].startDialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5056891728837224242, guid: 13aa760125a7d4338b9190db4cab032c, type: 3}
+    - target: {fileID: 3433153564312579064, guid: e6356847d1d144a15890dfc5024489a1, type: 3}
+      propertyPath: dialogueStrings.Array.data[1].startDialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3433153564312579064, guid: e6356847d1d144a15890dfc5024489a1, type: 3}
+      propertyPath: dialogueStrings.Array.data[1].startDialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: nextScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 3433153564312579064, guid: e6356847d1d144a15890dfc5024489a1, type: 3}
+      propertyPath: dialogueStrings.Array.data[1].startDialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: gamemanager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3433153564312579064, guid: e6356847d1d144a15890dfc5024489a1, type: 3}
+      propertyPath: dialogueStrings.Array.data[1].startDialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8505787015208915761, guid: e6356847d1d144a15890dfc5024489a1, type: 3}
       propertyPath: m_LocalScale.x
       value: 50

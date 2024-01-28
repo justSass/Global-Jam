@@ -12,6 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/ChickenIDe.unity
     guid: b67a0cf9b4df8264a96c5731c7f372f1
   - enabled: 1
-    path: Assets/Scenes/Test Scene.unity
+    path: Assets/Scenes/Chicken Fight.unity
+    guid: 6f0cbc2f4abef4f909868b928b2d8023
+  - enabled: 1
+    path: Assets/Scenes/3 Chicken Talk.unity
     guid: c222fd4e86ae14d188a7d09b6061688d
+  - enabled: 1
+    path: Assets/Scenes/Father Chicken.unity
+    guid: 32399a74bbf324be49425e9628af1d92
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: 145d7e2bccf114633b81704aad6b0d69
   m_configObjects: {}

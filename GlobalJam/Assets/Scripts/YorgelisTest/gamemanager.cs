@@ -27,10 +27,7 @@ public class gamemanager : MonoBehaviour
 
                 if (_instance == null)
                 {
-                    //   Debug.Log("not found again");
-                    // GameObject myGo = new GameObject("gamemanager");
-                    // _instance = myGo.AddComponent<gamemanager>();
-                    //  DontDestroyOnLoad(myGo.gameObject);
+             
 
                 }
             }
@@ -53,24 +50,13 @@ public class gamemanager : MonoBehaviour
     }
 
     public float inGameTimer;
-    public enum GameState
-    {
-        MENU,
-        GAMESTART,
-        GAMEOVER,
-        WIN
-    }
 
-    public GameState gameState;
 
-    public GameObject exitButton;
-    public UnityEvent exit;
-    public GameObject spriteSelected;
+   
 
     private void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
-        gameState = GameState.MENU;
+       
        
 
         //Remember to play menu song
@@ -88,46 +74,15 @@ public class gamemanager : MonoBehaviour
 
 
 
-        switch (gameState)
-        {
-
-            case GameState.MENU:
-
-                break;
-            case GameState.GAMESTART:
-    
-                inGameTimer += Time.deltaTime;
-                break;
-            case GameState.GAMEOVER:
-                
-
-
-                break;
-            case GameState.WIN:
-
-                break;
-        }
-
-    }
-    public void SwitchScene()
-    {
-      
-    }
-
-    public void ExitScene()
-    {
-        
-    }
-
-    public void EndScene()
-    {
+       
        
     }
+   
 
     public void nextScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        SoundManager.myInstance.musicSfx((SceneManager.GetActiveScene().buildIndex + 1));
+       
 
         
     }
